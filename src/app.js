@@ -4,6 +4,7 @@ const hbs = require("hbs");
 
 const app = express();
 const PORT = process.env.PORT || 3000;
+console.log(`Using port ${PORT}`);
 
 const forecast = require("./utils/forecast");
 const geocode = require("./utils/geocode");
